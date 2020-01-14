@@ -1,153 +1,17 @@
-.header {
-  background-color: #ffffff;
-  border: 1px solid #dcdcdc;
-  color: #2c2e3f;
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,700&display=swap&subset=latin-ext');
+
+body {
   font-family: 'Poppins', sans-serif;
-  width: 100%;
-  margin: 0 auto;
-  height: 155px;
-  text-align: center;
+  color: #2c2e3f;
 }
 
-.header__logo {
-  float: left;
-  width: 10%;
-  padding: 20px;
-  margin-top: 45px;
-  margin-left: 20px;
+img {
+  display: block;
+  margin: 0;
 }
 
-.header__logo__img {
-  width: 100px;
-}
-
-.header__menu {
-  float: left;
-  width: 60%;
-  margin-top: 45px;
-}
-
-.header__icons {
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin: 20px;
-}
-
-.header__icon {
-  width: 20px;
-  height: 20px;
-  padding: 25px;
-}
-
-.header__list {
+ul {
   list-style: none;
-}
-
-.list__item {
-  display: inline-block;
-  margin-left: 30px;
-  font-size: 12px;
-}
-
-.list__item--pink {
-  display: inline-block;
-  color: #fe7865;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.header__hamburger {
-  display: none;
-}
-
-/*Media Queries*/
-@media only screen and (min-width : 320px) {
-  .header {
-    height: 100px;
-  }
-
-  .header__logo {
-    margin-top: 20px;
-    margin-left: 10px;
-  }
-
-  .header__menu {
-    display: none;
-  }
-
-  .header__icons {
-    display: none;
-  }
-
-  .header__hamburger {
-    display: inline;
-    float: right;
-    margin-right: 10px;
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (min-width : 768px) {
-  .header {
-    height: 200px;
-  }
-
-  .header__logo {
-    margin-top: 20px;
-    margin-left: 10px;
-  }
-
-  .header__menu {
-    display: inline-block;
-  }
-
-  .header__icons {
-    display: inline-block;
-    float: left;
-  }
-
-  .header__hamburger {
-    display: none;
-  }
-}
-
-@media only screen and (min-width : 1024px) {
-  .header {
-    height: 155px;
-  }
-
-  .header__logo {
-    margin-top: 40px;
-    margin-left: 10px;
-  }
-
-  .header__icons {
-    float: none;
-  }
-}
-
-@media only screen and (min-width : 1440px) {
-  .header__logo {
-    margin-top: 70px;
-    margin-left: 70px;
-  }
-
-  .header__menu {
-    margin-top: 45px;
-  }
-
-  .header__icons {
-    float: left;
-    width: 20%;
-    padding: 15px;
-    margin: 20px;
-  }
-}
-
-@media only screen and (min-width : 1920px) {
-  .header__logo {
-    margin-top: 70px;
-    margin-left: 100px;
-  }
+  padding: 0;
+  margin: 0;
 }

@@ -6,32 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Furniture</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="logo.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
 
   <header class="header">
     <div class="header__logo">
-      <img class="header__logo__img" src="img/logo.png" alt="logo">
+      <img class="logo" src="img/logo.png" alt="logo">
     </div>
 
     <div class="header__menu">
-      <ul class="header__list">
-        <li class="list__item--pink">New In</li>
-        <li class="list__item">Furniture</li>
-        <li class="list__item">Rest</li>
-        <li class="list__item">Decoration</li>
-        <li class="list__item">Outdoor</li>
-        <li class="list__item">Magazine</li>
-        <li class="list__item">Outlet</li>
+      <ul class="nav nav--primary">
+        <li class="nav__item nav__item--active">
+          <a href="#" class="nav__anchor">New In</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__anchor">Furniture</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__anchor">Rest</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__anchor">Decoration</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__anchor">Outdoor</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__anchor">Magazine</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__anchor">Outlet</a>
+        </li>
       </ul>
     </div>
 
     <div class="header__icons">
-      <img class="header__icon" src="img/person.png" alt="person" />
-      <img class="header__icon" src="img/search.png" alt="search" />
-      <img class="header__icon" src="img/shop.png" alt="shop" />
+      <ul class="nav nav--secondary">
+        <li class="nav__item">
+          <img class="nav__icon" src="img/person.png" alt="person" />
+        </li>
+        <li class="nav__item">
+          <img class="nav__icon" src="img/search.png" alt="search" />
+        </li>
+        <li class="nav__item">
+          <img class="nav__icon" src="img/shop.png" alt="shop" />
+        </li>
+      </ul>
     </div>
 
     <div class="header__hamburger">

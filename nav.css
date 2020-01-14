@@ -1,0 +1,40 @@
+.nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.nav__item {
+  transition: all 250ms ease-in-out;
+  font-weight: 300;
+  font-size: 12px;
+  color: #2c2e3f;
+  float: left;
+}
+
+.nav__item--active {
+  font-weight: 600;
+}
+
+.nav__item--active,
+.nav__item:hover {
+  color: #fe7865;
+}
+
+.nav__icon {
+  height: 20px;
+  width: 18px;
+}
+
+.nav.nav--primary .nav__item:not(:first-child) {
+  margin-left: 48px;
+}
+
+.nav.nav--secondary .nav__item:not(:first-child) {
+  margin-left: 78px;
+}
+
+.nav__anchor {
+  text-decoration: none;
+  color: inherit;
+}

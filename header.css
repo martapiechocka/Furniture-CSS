@@ -1,0 +1,43 @@
+.header {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  /* box-sizing: https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/css-basics/css-box-model/index.html */
+  box-sizing: border-box;
+  position: relative;
+  padding: 69px 60px 69px 61px;
+}
+
+/* clearfix: https://blog.piotrnalepa.pl/2014/05/27/html-css-dlaczego-pisanie-kodu-html-i-css-nas-wkurza/ */
+.header::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.header__logo {
+  float: left;
+}
+
+.header__menu {
+  float: right;
+  margin-top: -20px;
+}
+
+.header__icons {
+  position: absolute;
+  right: 60px;
+  bottom: 39px;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+@media only screen and (min-width : 320px) {}
+@media only screen and (min-width : 768px) {}
+@media only screen and (min-width : 1024px) {}
+@media only screen and (min-width : 1440px) {}
+@media only screen and (min-width : 1920px) {}
